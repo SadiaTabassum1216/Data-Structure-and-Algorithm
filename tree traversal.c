@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<math.h>
 
+void preorder(int index, int tree[],int pre[],int size);
+void postorder(int index, int tree[],int post[],int size);
+void inorder(int index, int tree[],int in[],int size);
+
 int main()
 {
 int i,count=1,size,n,len;
