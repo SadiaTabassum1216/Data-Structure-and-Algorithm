@@ -18,9 +18,11 @@ int main()
     }
 
 
+    printf("The min heap:\n");
     for(i=0;i<n;i++){
-        printf("%d ",A[i]);
+        printf("%8d ",A[i]);
     }
+    printf("\n");
 
  return 0;
 }
