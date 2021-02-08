@@ -8,19 +8,22 @@ int main()
 {
     int n,i;
 
-    printf("How many elements do you want to input? ");
+    printf("How many elements do you want to input?  ");
     scanf("%d",&n);
 
     int A[n];
+    printf("Enter the elements:\n");
     for(i=0;i<n;i++){
         scanf("%d",&A[i]);
     }
 
     HeapSort(A,n);
 
+    printf("The sorted array:\n");
     for(i=0;i<n;i++){
-        printf("%d ",A[i]);
+        printf("%8d ",A[i]);
     }
+    printf("\n");
 
  return 0;
 }
