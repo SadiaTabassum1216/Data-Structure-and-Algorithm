@@ -10,8 +10,7 @@ int main()
 
         for(i=0;;i++){
         printf("Insert element: ");
-        scanf("%d",&x);
-        if(x==-1) break;
+        if(scanf("%d",&x)==EOF) break;
         n++;
 
         HeapInsertion(A,n,x);
